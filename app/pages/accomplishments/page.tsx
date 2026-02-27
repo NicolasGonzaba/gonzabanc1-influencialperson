@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Accomplishments = () => {
   return (
-   <div className="flex min-h-screen items-center justify-center font-sans bg-[url(/assets/YugiohBG2.webp)]">
+   <div className="flex min-h-screen items-center justify-center font-sans bg-[url(/assets/YugiohBG2.webp)] bg-center bg-cover">
       <main className=" text-center text-white">
         <h1 className="text-3xl">Accomplishments</h1>
         <Image className="place-self-center" src={TakahashiAward} alt="Takahashi Award" />

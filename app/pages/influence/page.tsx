@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const influence = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans bg-[url(/assets/YugiohBG2.webp)]">
+    <div className="flex min-h-screen items-center justify-center font-sans bg-[url(/assets/YugiohBG2.webp)] bg-center bg-cover">
       <main className=" text-center text-white">
         <h1 className="text-3xl">Influence</h1>
         <Image className="place-self-center" src={TakahashiSigning} alt="Takahashi Signing" />
@@ -13,7 +13,7 @@ const influence = () => {
         <div className="border-4 rounded-md max-w-300">
         
         
-          <h4 className="text-2xl">Takahashi was a very a very influecial and acclamied manga artist. He most famously was the creator of Yugioh manga, however also had several other lesser known manga he had worked on such as The Comiq and Drump. He had a very unique artstyle mostly coming from the fact he took a massive influence from American comics instead of Japanese manga and animation, causing many of his early ideas to be shut down and resorting to making art for games companies instead. However once he was accepted his  </h4>
+          <h4 className="text-2xl"> Takahashi had a great influence on both the manga industry and Shonen genre, and the Yu-Gi-Oh card game would inspie many others to make their own and help shape the industry around it. However what made him have such a huge influence to me is the fact that  </h4>
         </div>
       </main>
     </div>
