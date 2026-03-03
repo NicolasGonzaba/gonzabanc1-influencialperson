@@ -10,11 +10,12 @@ const Header = () => {
         <NavbarLink href="/" active>
           Home
         </NavbarLink>
+        <NavbarLink href="/pages/life">Life</NavbarLink>
         <NavbarLink  href="/pages/accomplishments">
           Accomplishments
         </NavbarLink>
         <NavbarLink href="/pages/influence">Influence</NavbarLink>
-        <NavbarLink href="/pages/life">Life</NavbarLink>
+        
       </NavbarCollapse>
     </Navbar>
   )
